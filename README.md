@@ -7,6 +7,7 @@ A collection of SQL training projects built while preparing for the **RNCP 6** c
 | Directory | Description | Topics |
 | --- | --- | --- |
 | [sql_manga](./sql_manga) | Manga rental shop database: schema creation, test data, and business queries | `SELECT`, `WHERE`, `LIKE`, `IN`, `ORDER BY`, aggregate functions, joins, `CASE WHEN`, `INSERT`, `UPDATE`, `DELETE` |
+| [sql_velo](./sql_velo) | Bike rental system database: schema with constraints, test data, and statistics queries | `INNER JOIN`, `LEFT JOIN`, `GROUP BY`, aggregate functions, constraints, transactions |
 
 ## Requirements
 
@@ -40,7 +41,9 @@ sudo mysql
 ```
 holbertonschool-sql_warrior/
 ├── README.md
-└── sql_manga/
+├── sql_manga/
+│   └── README.md
+└── sql_velo/
     └── README.md
 ```
 
